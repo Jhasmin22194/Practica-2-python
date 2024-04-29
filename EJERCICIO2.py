@@ -8,11 +8,11 @@ def llenarVector(v,n):
     print(v)
 
 def esprimo(n):
-    c=0
-    for j in range(1, n+1):
-        		if n%j==0:
-        			c+=1
-    return c==2
+    c = 0
+    for j in range(1, n + 1):
+        if n % j == 0:
+            c += 1
+    return c == 2
   
 def factorial(n):
     f = 1
