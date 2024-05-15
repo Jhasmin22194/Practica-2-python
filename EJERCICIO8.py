@@ -10,11 +10,10 @@ def digitos(num):
         c+=1
     return V
 def calcularN(dig):
-    c=0
-    while (c**2 <= len(dig)):
+    c=1
+    while (c**2 <= len(dig)-1):
         c+=1
     return c
-
 def mostrarMatriz(M):
     for f in M:
         print(f)
